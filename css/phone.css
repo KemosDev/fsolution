@@ -1,0 +1,45 @@
+:root{
+    font-size: 11px;
+}
+header{
+    height: max-content;
+}
+header .some-info{
+    height: max-content;
+    flex-direction: column;
+}
+header .some-info .social{
+    width: 100%;
+    height: max-content;
+    margin: 2vh 0;
+}
+header .some-info .cont-info{
+    width: 100%;
+    height: max-content;
+}
+header nav{
+    height: max-content;
+    background-color: red;
+    justify-content: space-between;
+}
+header nav .lists{
+    height: max-content;
+    /* justify-content: ; */
+    position: relative;
+}
+header nav .lists .fa-bars{
+    display: block;
+}
+header nav .lists .lists-cont{
+    flex-direction: column;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    width: 100vw;
+    height: max-content;
+    padding: 1%;
+    background-color: #eee;
+}
+header nav .lists .lists-cont .li{
+    width: 100%;
+}

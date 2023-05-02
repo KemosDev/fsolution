@@ -2,15 +2,95 @@
 <html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="index, follow" />
-    <meta name="author" content="kemosdev" />
-    <meta name="copyright" content="fsolution" />
+    <meta name="robots" content="index, follow"/>
+    <meta name="author" content="kemosdev"/>
+    <meta name="copyright" content="fsolution"/>
     <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/phone.css" media="(max-width: 480px)">
+    <script src="https://kit.fontawesome.com//6c1151a33c.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
     <title>fsolution</title>
 </head>
-<body>
+<body id="body">
+    <header>
+        <div class="some-info">
+            <div class="lan"><i class="fa-solid fa-globe fa-xl"></i><a href="#" title="language">english</a></div>
+            <div class="social">
+                <i class="fa-brands fa-facebook fa-xl"></i>
+                <i class="fa-brands fa-twitter fa-xl"></i>
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+                <i class="fa-brands fa-youtube fa-xl"></i>
+                <i class="fa-brands fa-instagram fa-xl"></i>
+            </div>
+            <div class="cont-info">
+                <span><a href="tel:+00966565587431" title="رقمنا">009966565587431</a><i class="fa-solid fa-phone fa-shake fa-lg"></i></span>
+                <span><i class="fa-solid fa-envelope fa-beat-fade fa-lg"></i><a href="mailto:info@fsolutions-sa.com" title="بريدنا الإلكتروني">info@fsolutions-sa.com</a></span>
+            </div>
+        </div>
+
+        <nav>
+            <div class="logo">
+                <a href="./index.html" title="الصفحة الرئيسية"><img src="" alt="logo"></a>
+            </div>
+
+            <div class="lists">
+                <i class="fa-solid fa-bars fa-xl"></i>
+                <div class="lists-cont">
+                    <div class="list1 li">
+                        <p id="list1">التصميم</p>
+                        <div id="design" class="list list-design">
+                            <i class="fa-solid fa-circle-xmark fa-xl" id="x-design"></i>
+                            <ul>
+                                <li><a href="#" title="#">UI & UX</a></li>
+                                <li><a href="#" title="#">الشعارات</a></li>
+                                <li><a href="#" title="#">الهوية البصرية</a></li>
+                                <li><a href="#" title="#">ملف الشركات</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="list2 li">
+                        <p id="list2">البرمجيات</p>
+                        <div id="dev" class="list list-dev">
+                            <div>
+                                <i class="fa-solid fa-circle-xmark fa-xl" id="x-dev"></i>
+                                <ul>
+                                    <li><a href="#" title="#">مواقع الويب</a></li>
+                                    <li><a href="#" title="#">تطبيقات الهاتف</a></li>
+                                    <li><a href="#" title="#">ERP</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list3 li">
+                        <p id="list3" class="li">التسويق الإلكتروني</p>
+                        <div id="content"></div>
+                    </div>
+
+                    <div class="list4 li">
+                        <p id="list4">تركيب الأنظمة وصيانتها</p>
+                        <div id="safety" class="list list-safety">
+                            <i class="fa-solid fa-circle-xmark fa-xl" id="x-safety"></i>
+                            <ul>
+                                <li><a href="#" title="#">الإنتركم</a></li>
+                                <li><a href="#" title="#">كاميرات المراقبة</a></li>
+                                <li><a href="#" title="#">أنظمة الحماية من السرقة</a></li>
+                                <li><a href="#" title="#">أنظمة البصمة</a></li>
+                                <li><a href="#" title="#">سنترالات</a></li>
+                                <li><a href="#" title="#">شبكات</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <script src="./js/anime.min.js"></script>
     <script src="./js/main.js"></script>
 </body>

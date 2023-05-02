@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 17px;
+}
+body{
+    height: 100vh;
+}
+header{
+    width: 100vw;
+    height: 14vh;
+    background-color: #eee;
+}
+header .some-info{
+    width: 100%;
+    height: 4vh;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #330785;
+}
+header .some-info .lan a{
+    color: #a30f0f;
+    font-size: 1.1rem;
+    margin-right: .3vw;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+header .some-info .social{
+    width: 20%;
+    height: 4vh;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .some-info .social .fa-twitter{
+    color: #2289d9;
+}
+header .some-info .social .fa-facebook{
+    color: #1569f9;
+}
+header .some-info .social .fa-linkedin{
+    color: #094faa;
+}
+header .some-info .social .fa-youtube{
+    color: #a30f0f;
+}
+header .some-info .social .fa-instagram{
+    color: #df1652;
+}
+header .some-info .cont-info{
+    width: 35%;
+    height: 4vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .some-info .cont-info span:first-of-type{
+    position: relative;
+}
+header .some-info .cont-info a{
+    color: #a30f0f;
+    font-size: 1.1rem;
+    margin: 0 .3vw;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+header nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav .logo{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav .lists{
+    width: 75%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav .lists .fa-bars{
+    display: none;
+}
+header nav .lists .lists-cont{
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 3;
+}
+header nav .lists .li{
+    width: 20%;
+    position: relative;
+}
+header nav .lists .li p{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: color .5s linear;
+}
+header nav .lists .li p:hover{
+    color: #c00965;
+}
+header nav .lists .li .list{
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    z-index: 4;
+    list-style: none;
+}
+header nav .lists .li .list .fa-circle-xmark{
+    position: absolute;
+    top: 2.5vh;
+    left: -1vw;
+    z-index: 3;
+    cursor: pointer;
+    color: red;
+}
+header nav .lists .li .list ul{
+    list-style: none;
+    padding: 1%;
+}
+.hide{
+    display: none;
+}
