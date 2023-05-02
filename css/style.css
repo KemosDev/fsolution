@@ -65,7 +65,6 @@ header .some-info .cont-info{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: -1%;
 }
 header .some-info .cont-info span a{
     color: #a30f0f;
@@ -119,12 +118,12 @@ header nav .menu-bar ul li a:hover{
     color: #df1652;
 }
 header nav .menu-bar ul li a i{
-    margin-right: .3vw;
+    margin-left: .3vw;
 }
 header nav .menu-bar ul li{
     position: relative;
 }
-header nav .menu-bar ul li .design-drop{
+header nav .menu-bar ul li .drop-menu{
     display: none;
     width: 100%;
     height: max-content;
@@ -133,22 +132,22 @@ header nav .menu-bar ul li .design-drop{
     top: 100%;
     transition: all 1s linear;
 }
-header nav .menu-bar ul li:hover .design-drop{
+header nav .menu-bar ul li:hover .drop-menu{
     display: block;
 }
-header nav .menu-bar ul li .design-drop ul{
+header nav .menu-bar ul li .drop-menu ul{
     width: 100%;
     height: max-content;
     display: block;
 }
-header nav .menu-bar ul li .design-drop ul li{
+header nav .menu-bar ul li .drop-menu ul li{
     width: 100%;
 
 }
-header nav .menu-bar ul li .design-drop ul li a{
+header nav .menu-bar ul li .drop-menu ul li a{
     color: #df1652;
     font-size: 1.3rem;
 }
-header nav .menu-bar ul li .design-drop ul li a:hover{
+header nav .menu-bar ul li .drop-menu ul li a:hover{
     color: #330785;
 }

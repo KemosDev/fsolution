@@ -1,53 +1,6 @@
-const list1 = document.getElementById('list1');
-const list2 = document.getElementById('list2');
-const list3 = document.getElementById('list3');
-const list4 = document.getElementById('list4');
-
-const design = document.getElementById('design');
-const dev = document.getElementById('dev');
-const safety = document.getElementById('safety');
-
-const xDesign = document.getElementById('x-design');
-const xDev = document.getElementById('x-dev');
-const xSafety = document.getElementById('x-safety');
-
-design.classList.add('hide');
-dev.classList.add('hide');
-safety.classList.add('hide');
-
-list1.addEventListener('click', function() {
-    design.classList.remove('hide');
-    anime({
-        targets: '.list-design',
+anime({
+        targets: '.drop-menu',
         opacity: [0,1],
         duration: 10000,
         direction: 'linear',
     });
-});
-xDesign.addEventListener('click', function() {
-    design.classList.add('hide');
-});
-list2.addEventListener('click', function() {
-    dev.classList.remove('hide');
-    anime({
-        targets: '.list-dev',
-        opacity: [0,1],
-        duration: 10000,
-        direction: 'linear',
-    });
-});
-xDev.addEventListener('click', function() {
-    dev.classList.add('hide');
-});
-list4.addEventListener('click', function() {
-    safety.classList.remove('hide');
-    anime({
-        targets: '.list-safety',
-        opacity: [0,1],
-        duration: 10000,
-        direction: 'linear',
-    });
-});
-xSafety.addEventListener('click', function() {
-    safety.classList.add('hide');
-});
