@@ -1,18 +1,3 @@
-VANTA.NET('#body');
-VANTA.NET({
-    el: "#body",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 100.00,
-    minWidth: 100.00,
-    translateX: [100.00, 200.00],
-    scale: .5,
-    scaleMobile: 1.00,
-    color: '#c00965',
-    backgroundColor: '#eee'
-})
-
 const list1 = document.getElementById('list1');
 const list2 = document.getElementById('list2');
 const list3 = document.getElementById('list3');
