@@ -10,14 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/phone.css" media="(max-width: 480px)">
+    <link rel="stylesheet" href="./css/media/phone.css" media="(max-width: 480px)">
+    <link rel="stylesheet" href="./css/media/tablet.css" media="(min-width: 481px) and (max-width: 768px)">
     <script src="https://kit.fontawesome.com//6c1151a33c.js" crossorigin="anonymous"></script>
-    <style>
+    <!-- <style>
         @import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
-    </style>
+    </style> -->
     <title>fsolution</title>
 </head>
-<body id="particles-js">
+<body>
+    <div id="particles-js"></div>
     <header>
         <div class="some-info">
             <div class="lan"><i class="fa-solid fa-globe fa-xl"></i><a href="#" title="language">english</a></div>
@@ -60,7 +62,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">التسويق الإلكتروني</a></li>
+                    <li><a href="#" id="market-button">التسويق الإلكتروني</a></li>
                     <li><a href="#"><i class="fa-solid fa-caret-down"></i>أنظمة الحماية</a>
                         <div class="drop-menu">
                             <ul>
@@ -75,9 +77,27 @@
                     </li>
                 </ul>
             </div>
-            <div class="menu-phone"></div>
+            <div class="menu-phone">
+                <i class="fa-solid fa-bars fa-lg" id="bar"></i>
+                <div class="menu-phone-cont" id="menu-phone-cont">
+                    <i class="fa-solid fa-bounce fa-angle-up fa-2xl" id="arrow"></i>
+                    <ul>
+                        <li><a href="#">الشركة</a></li>
+                        <li><a href="#">التصميم</a></li>
+                        <li><a href="#">البرمجة</a></li>
+                        <li><a href="#" id="market-phone">التسويق الإلكتروني</a></li>
+                        <li><a href="#">أنظمة الحماية</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+    <main>
+        <section class="market" id="market">
+            <i class="fa-solid fa-xmark fa-2xl" id="x"></i>
+            <i class="fa-solid fa-gear fa-2xl"></i><span>قريباً...</span>
+        </section>
+    </main>
     <script src="./js/anime.min.js"></script>
     <script src="./js/particles.js"></script> 
     <script src="./js/app.js"></script>

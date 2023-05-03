@@ -1,0 +1,79 @@
+:root{
+    font-size: 11.5px;
+}
+header{
+    height: max-content;
+}
+header .some-info{
+    height: max-content;
+    flex-direction: column;
+}
+header .some-info .social{
+    width: 100%;
+    height: max-content;
+    margin: 2vh 0;
+}
+header .some-info .cont-info{
+    width: 100%;
+    height: max-content;
+}
+header nav .menu-bar{
+    display: none;
+}
+header nav .menu-phone{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+header nav .menu-phone .fa-bars{
+    margin-left: 2vw;
+    font-size: 2rem;
+    cursor: pointer;
+}
+header nav .menu-phone .menu-phone-cont{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transition: transform .8s linear;
+}
+header nav .menu-phone .menu-phone-cont .fa-angle-up{
+    position: absolute;
+    top: 17vh;
+    right: auto;
+    transform: translate(-18%,-45%);
+    color: red;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+header nav .menu-phone .menu-phone-cont ul{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+header .menu-phone .menu-phone-cont ul li a{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+main{
+    height: calc(100vh - 118.41px);
+}
+main .market{
+    width: 90%;
+    height: 50%;
+}
